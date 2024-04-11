@@ -12,3 +12,10 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+import math
+i = float(input("a number: "))
+i = i % 2
+if i == 0:
+    print("the number is even")
+else:
+    print("the number is odd")
